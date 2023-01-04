@@ -1,0 +1,697 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*======================================
+========================================
+==============COMIENZO INICIO===========
+========================================
+/*------- Estilos del banner---------*/
+.banner{
+   background-image: url(assets/Home/singapore-2933529_1920.jpg);
+   background-size: cover;
+   height: 100vh;
+}
+
+.singapur{
+    -webkit-text-stroke: 6px rgb(255, 255, 255);
+    color: transparent; 
+    font-family: 'Bebas Neue';
+    font-size: 20vw;
+    font-weight: 500;
+    text-align:center;
+    margin:0;
+    letter-spacing: 4px;
+    padding: 70px 0 0;
+}
+
+.subtitulo{
+    font-family:'Bebas Neue';
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    margin:0;
+    font-size: 4rem;
+    letter-spacing: 4px;
+}
+
+/*Estilos para párrafo introducción*/
+.intro{
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 1.6em;
+    width: 50%;
+    margin: 40px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*---Estilos para "Por qué viajar"----*/
+.linea{
+    margin:0;
+    background-color: #c03a31;
+    width:100px;
+    height:10px;
+}
+
+.contenedor1{
+    background-color: rgb(218, 218, 218);
+    padding: 40px;
+    background-image: url(assets/Home/AVION.png);
+    background-repeat: no-repeat;
+    background-position-x: 70%;
+    background-position-y: 40px;
+}
+
+.titulo1{
+    font-size: 2rem;
+    color:#c03a31;
+    font-weight:900;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+    
+}
+.contenedor1 h2{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo2{
+    font-size: 2rem;
+    font-weight: 900;
+    margin:0;
+    line-height: 0.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.porqueviajar{
+    text-align: left;
+    font-size: 1.3rem;
+    margin-top: 5%;
+    line-height: 1.6em;
+}
+
+.porqueviajar2{
+    text-align: left;
+    font-size: 1.3rem;
+    line-height: 1.6em;
+}
+/*----------pastilla1-----*/
+
+.pastilla-icono{
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    display:grid;
+    margin:20px;
+}
+
+.pastilla-icono p{
+    font-weight: bold;
+
+}
+
+.pastilla1{
+    display:grid;
+    justify-items: center;
+}
+
+
+/*------Estilos Banner DESCUBRI--------*/
+
+figure{
+    margin:0;
+}
+
+.descubri{
+    background-image: url(assets/Home/Descubri.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 60px;
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    color: whitesmoke;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.des{
+    font-size: 32vh;
+    position: relative;
+    top: 23%;
+}
+
+.cu{
+    font-size: 42vh;
+    letter-spacing: 11px;
+}
+
+.bri{
+    font-size: 32vh;
+    position: relative;
+    bottom: 20%;
+    letter-spacing: 8px;
+}
+
+.contenedor2{
+    background-color: #c03a31;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.requisitos{
+    margin:0;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding:0.1rem;
+}
+
+.icono-atencion{
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 3px;
+
+}
+
+/*===============================
+=================================
+====== CARDS Y FOOTER CON GRID===
+=================================
+=================================*/
+
+
+.tarjetas{
+    position: relative;
+    z-index: 100;
+    width: 350px;
+    display:grid;
+    width:100%;
+}
+.tarjetas-item figure{
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.tarjetas h2{
+    color: rgb(255, 230, 0);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    position: relative;
+    top: -30%;
+    font-size:23px;
+}
+
+.tarjetas-item{
+    background-color: rgb(216, 213, 213);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 200;
+    width:90%;
+    margin: 1rem auto;
+    max-width: 300px;    
+}
+
+.circulo11{
+    height: 70px;
+    width: 70px;
+    background: rgb(255, 230, 0);
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: -13px;
+    z-index: 500;
+    box-shadow: 6px 6px 4px 2px rgb(0 0 0 / 20%);
+    border-color: #c03a31;
+    color: #fff;
+    background-image: -webkit-linear-gradient(45deg, #c03a31 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #c03a31 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+.circulo11:hover{
+    background-position: 0;
+}
+
+.card-item ul{
+    padding-left:10px;
+}
+
+.card-item li{
+    list-style: none;
+    font-size: 1rem;
+    padding: 1px;
+}
+
+.moneda{
+    color: #c03a31;
+    font-size: 1rem;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-right: 23px;
+
+}
+.costo{
+    color:#c03a31;
+    font-size: 2.5rem;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.precioxadulto {
+    position: relative;
+    margin-top: -40px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.info-items{
+    padding: 10px;
+}
+.circulo11 .chevron{
+    font-size: 2.5rem;
+}
+.circulo11 .chevron:hover{
+    color:rgb(255, 230, 0);
+}
+.info-items li{
+    padding-right: 8px;
+    list-style: none;
+}
+
+.info-items li i{
+    padding:5px;
+}
+
+.info-items ul{
+    padding:5px;
+}
+
+/* ----------Estilos INFOVIAJEROS------*/
+.contenedor3{
+    background-color: rgb(218, 218, 218);
+    padding: 40px;
+    background-image: url(assets/HOME/Valija.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 50%;
+
+}
+
+.contenedor3 p{
+    text-align: left;
+    font-size: 1.3rem;
+    margin-top: 2%;
+    line-height: 1.6em;
+}
+
+/* ----------Estilos Carousel------*/
+.carousel-item img{
+    object-fit: cover;
+    height:100vw;
+}
+/*----------Estilos Banner App---------*/
+.app{
+    background-color: whitesmoke;
+    position: relative;
+    display:grid;
+}
+.celular{
+    position: relative;
+    z-index: 100;
+    object-fit: cover;
+    margin:0;
+}
+
+.mobile{
+    padding-top:20px;
+    
+}
+.store{
+    margin-top:40px;
+    margin-bottom:15px;
+}
+.celular img{
+    width:85%;
+}
+
+/*-----------Vectores-----------*/
+
+#circulo{
+    height: 300px;
+    width: 300px;
+    background: rgba(245, 53, 53, 0.685);
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 20;
+    top: 8%;
+    left: 11%;
+}
+
+.textos{
+    width:60%;
+    margin:0;
+    padding:10px;
+    z-index: 30;
+}
+.so{
+    color:rgb(145, 145, 145);
+    margin:0;
+    font-size: 1.5rem;
+    padding-top: 10%;
+}
+.descarga{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #c03a31;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+}
+
+.parrafo{
+    font-size: 1rem;
+    color:rgb(51, 51, 51);
+    margin:0;
+    line-height: 1.6em;
+}
+/*=======================================
+=========================================
+==========FOOTER=========================
+=========================================*/
+/*Estilos Footer*/
+.pie-grid{
+    background-color: #c03a31;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.asiatours a{
+    text-decoration: none;
+    color:white;
+}
+.asiatours a:hover {
+    background-size: 100% 2px;
+    color: #ffd900; 
+}
+.soporte a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.soporte a:hover{
+    background-size: 100% 2px;
+    color: #ffd900; 
+}
+
+.trabaja a{
+    text-decoration: none;
+    color:white;
+  
+}
+.trabaja a:hover {
+    background-size: 100% 2px;
+    color: #ffd900; 
+}
+.pie-grid li{
+    list-style: none;
+    margin-bottom:3px;
+}
+
+.pie-grid ul{
+    padding:0;
+}
+
+.pie-grid h3{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+
+.asiatours i{
+    color:white;
+    font-size: 2.5rem;
+    padding-right: 1rem;
+}
+
+.rrss{
+    display: flex;
+    justify-content: center
+}
+
+.pagos{
+    display: flex;
+    justify-content: center
+}
+
+.pagos i{
+    padding-right: 1rem;
+    font-size: 2.5rem;
+
+}
+
+.nombre{
+    background-color:  #c03a31;
+    color:white;
+    
+}
+
+.linea-final{
+    margin:0;
+    background-color: rgb(255, 249, 249);
+    width:100%;
+    height:1px;
+}
+
+.nombre p {
+    text-align: center;
+    font-size: 15pt;
+    margin:0;
+    padding:1px;
+}
+
+/*===============================
+=================================
+====== COMIENZO MEDIAQUERY======
+=================================
+=================================*/
+@media screen and (max-width:400px) {
+    #circulo {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width:576px) {
+   
+    .so{
+        font-size: 1.5rem;
+    padding-top: 10%;
+    }
+    .descarga{
+    font-size: 2.5em;
+    margin: 0;
+    padding-bottom: 20px;
+    }
+    .parrafo{
+        margin: 0;
+        line-height: 1.6em;
+    }
+    .mobile figure{
+        right: 0%;
+    }
+    .tarjetas{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .app{
+        display: grid;
+        grid-template-columns: 1fr;
+    
+    }
+    .pastilla1{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+}
+
+@media screen and (min-width:760px){
+    .tarjetas{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .pastilla1{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .app{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    
+    }
+    .pie-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top:20px;
+    }
+
+}
+
+@media screen and (min-width:1025px){
+    .tarjetas{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .pie-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .video{
+        display:grid;
+        grid-template-columns: 1fr;
+
+    }
+}
+
+/*===============================
+=================================
+====== BOOTSTRAP=================
+=================================
+=================================*/
+
+.card-item{
+    background-color: rgb(216, 213, 213);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.card-item figure{
+    overflow: hidden;
+}
+
+/*Estilos Footer*/
+.pie-items{
+    background-color: #c03a31;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px
+}
+.asiatours a{
+    text-decoration: none;
+    color:white;
+}
+.asiatours a:hover {
+    background-size: 100% 2px;
+    color: #ffd900; 
+}
+.soporte a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.soporte a:hover{
+    background-size: 100% 2px;
+    color: #ffd900; 
+}
+
+.trabaja a{
+    text-decoration: none;
+    color:white;
+  
+}
+.trabaja a:hover {
+    background-size: 100% 2px;
+    color: #ffd900; 
+}
+.pie-items li{
+    list-style: none;
+    margin-bottom:3px;
+}
+
+.pie-items h3{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.pie-items ul{
+    padding:0;
+    margin-bottom: 15px;
+
+}
+
+.asiatours i{
+    color:white;
+    font-size: 2.5rem;
+    padding-right: 1rem;
+}
+
+.rrss{
+    display: flex;
+}
+
+.pagos{
+    display: flex;
+}
+
+.pagos i{
+    padding-right: 1rem;
+    font-size: 2.5rem;
+}
+
+.nombre{
+    background-color:  #c03a31;
+    color:white;
+    
+}
+
+.linea-final{
+    margin:0;
+    background-color: rgb(255, 249, 249);
+    width:100%;
+    height:1px;
+}
+
+.nombre p{
+    text-align: center;
+    font-size: 15pt;
+    margin:0;
+    padding:1px;
+}
+
+.carousel-inner> .carousel-item> img {
+    width: 640px; 
+    height: 360px; 
+    object-fit: cover;
+}
